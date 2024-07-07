@@ -4,7 +4,7 @@ import './Food_list.css';
 import { Context } from '../context/Context';
 import Fooditem from '../fooditem/Fooditem';
 
-const Food_list = ({ category }) => {
+const FoodList = ({ category }) => {
   const { food_list } = useContext(Context);
 
   return (
@@ -31,8 +31,8 @@ const Food_list = ({ category }) => {
   );
 };
 
-Food_list.propTypes = {
+FoodList.propTypes = {
   category: PropTypes.string.isRequired,
 };
 
-export default Food_list;
+export default FoodList;
