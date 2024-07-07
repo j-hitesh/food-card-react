@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+.cart{
+    margin-top: 10rem;
+    padding: 0 25px;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: #808080;
+}
+.cart-item-title{
+    margin: 10px 0px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.cart-item-title img{
+    width: 50px;
+}
+.cart hr{
+    height: 1px;
+    border: none;
+    background-color: #e2e2e2;
+}
+.cart-item-title .croos{
+    cursor: pointer;
+}
+.cart-bottom{
+    margin-top: 80px;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.cart-total h2 ,.cart-total-details p{
+    padding: 4px 0;
+}
+.cart-bottom button{
+    padding: 6px 12px;
+    background-color: #c21125;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e2e2e2;
+    border-radius: 5px;
+}
+.no-cart{
+    width: 80vh;
+    height: 60vh;
+    background-color: #c21125;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 35%;
+    border-radius: 25px;
+}
+.no-cart h2{
+   color: #fff;
+   font-family: Lexend, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.no-cart img{
+    width: 70%;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}

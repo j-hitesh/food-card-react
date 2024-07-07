@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+.footer{
+    padding:0 6rem;
+    padding-top: 4rem;
+    margin-top: 2rem;
+    background-color: #212121;
+    font-family: Lexend, sans-serif;
+}
+.main_cont_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2rem;
+}
+
+.footer_ul{
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+.footer_ul li{
+    margin-top: 8px;
+}
+.footer_ul li:hover{
+    color: tomato;
+}
+.right_footer_logo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.right_footer_logo i{
+    margin-left: 4px;
+    width: 25px;
+    height: 25px;
+}
+.right_footer_logo i:hover{
+    color: tomato;
+}
+.footer_last{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 4rem;
+}

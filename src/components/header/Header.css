@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+.header{
+   width: 160vh;
+   height: 60vh;
+   background-color: #c82125;
+   margin-left: 12%;
+   border-radius: 8px;
+   padding: 20px 0;
+}
+.main_cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+    
+}
+.left_container{
+    color: #fff;
+    
+}
+.left_container h2{
+    font-family: Courgette, cursive;
+    font-size: 68px;
+    font-weight: 400;
+}
+.left_container p{
+    font-family:Lexend, sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.right_container video{
+    height: 200px;
+    border-radius: 10px;
+}
+.header a button{
+    padding: 10px 17px;
+    background-color: #e27b14;
+    border: 4px solid #c82125;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 5%;
+    transition: all 03.ms;
+}
+.header a button:hover{
+    background-color: #000;
+}

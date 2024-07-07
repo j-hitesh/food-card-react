@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+.food-display{
+    margin-top: 4rem;
+}
+.food_item{
+    box-shadow:0 0 10px #0000001a;
+    width: calc(100% / 3 - 6em);
+    border-radius: 10px;
+    transition: all 0.2ms;
+}
+.food_item:hover{
+  box-shadow: 4px 6px 6px 3px rgba(0, 0, 0, 0.4);
+}
+.food_img_con{
+    border-radius: 10px;
+    width: 99.9%;
+}
+.food_item_info{
+    margin: 10px;
+}
+.food_name{
+    display: flex;
+    justify-content: space-between;
+}
+.food_name p{
+    font-family: Lexend, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.food_item_des{
+    margin-top: 4px;
+    text-align: left;
+}
+.food_item_price{
+    color: tomato;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.food_item_counter{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    bottom: 15px;
+    left: 7px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.food_item_counter p{
+    color: rgb(0, 255, 60);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.img_fooditem_container{
+    position: relative;
+}
