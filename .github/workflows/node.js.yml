@@ -39,10 +39,8 @@ jobs:
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/${repository}
+        git remote set-url origin https://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@github.com/food-cart-react
         npm run deploy
       env:
         user_name: 'j-hitesh'
         user_email: 'h26545080@gmail.com'
-        github_token: ${{ secrets.ACTIONS_ACCESS_TOKEN }}
-        repository: ${{ github.repository }}
