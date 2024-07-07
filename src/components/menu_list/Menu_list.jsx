@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './menu_list.css';
 import { menu_list } from '../../assets/assets';
 
-const Menu_list = ({ category, setcategory }) => {
+const MenuList = ({ category, setcategory }) => {
   return (
     <div className='menu_explore_list'>
       <h1>What would you like to order</h1>
@@ -22,9 +22,9 @@ const Menu_list = ({ category, setcategory }) => {
   );
 }
 
-Menu_list.propTypes = {
+MenuList.propTypes = {
   category: PropTypes.string.isRequired,
   setcategory: PropTypes.func.isRequired,
 };
 
-export default Menu_list;
+export default MenuList;
